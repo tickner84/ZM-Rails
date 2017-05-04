@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Zipmail</title>
+    <title>ZipMail Ltd</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+
+
   </head>
 
   <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+      <div class="container">
+        <%= link_to "ZipMail", root_path, class: "navbar-brand" %>
+        <ul class="navbar-nav">
+          <li class="nav-item"><%= link_to "About us", root_path, class: "nav-link" %></li>
+          <li class="nav-item"><%= link_to "Testimonials", "#", class: "nav-link" %></li>
+          <li class="nav-item"><%= link_to "Contact", "#", class: "nav-link" %></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
     <%= yield %>
+    
+    <!-- Footer -->
+    <footer class="small text-muted">
+      <div class="container">
+        <hr>
+        <center>
+          <p>© 2017 ZipMail Ltd</p>
+        </center>
+      </div>
+    </footer>
+
   </body>
 </html>

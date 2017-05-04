@@ -1,2 +1,56 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="jumbotron jumbotron-home">
+    <div class="container">
+        <h1>Our Passion is Post ...</h1>
+        <h3>21st Century Mailroom and Postal Solutions</h3>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>The way post works has changed over the past decade:</h2>
+            <p>ZipMail helps businesses adapt to that change through integrated technology and a range of options designed to drive down the cost of postal services for UK wide companies. </p>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Mailroom Services</h3>
+            <p>Let ZipMail staff come on-site and process your mail. </p>
+            <p>With the reduction in business mail, are full-time mailroom staff being fully utilized?</p>
+            <p>Our teams come in at the times of day you need them to process the post.</p>
+            <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+        </div>
+         <div class="col-md-4">
+            <h3>Facilitation Services</h3>
+            <p>Do you have Administrative Staff in other roles who you'd like to train to do the post at the beginning and end of the day?</p> 
+            <p>ZipMail can show your staff how to process post through our price streamlining along with supporting associated stationary requirements.  </p>
+            <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+        </div>
+         <div class="col-md-4">
+            <h3>Collection Services</h3>
+            <p>Not processing post every day?</p>
+            <p>ZipMail will pick-up your post when you need us, then sort it off-site for streamline pricing. </p>
+            <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <h2>About us</h2>
+        
+        	<p>ZipMail Ltd was one of the first companies to be granted a license for postal services by the regulator Postcom after the industry was de ... in ....</p>
+        	<p>Based in the City of London, the origins of ZipMail can be traced back through its Founder and CEO Michael Tickner to 1-2-3 Express Services which has been handling mail for businesses in the U.K. for over 40 years</p> 
+    	</div>
+
+    	<div class="col-md-3">
+    		<%= link_to image_tag("postcom.png", class:"postcom"), "http://www.postcom.org", :target => "_blank"%>
+    	
+    	</div>
+    </div>
+</div>
+
+    
