@@ -9,6 +9,7 @@
     background-size: cover;
 }
 
+
 h1{
 	font-size: 5rem;
 	font-family: 'Pinyon Script', cursive;
@@ -30,11 +31,35 @@ h3{
 	float: center;
 }
 
-.cite{
-	
+.testimonial_image{
+	max-width: 15rem;
+	text-align: center;
+}
+
+	.south_london{
+		max-width: 20rem;
+		float: center;
+	}
+
+	.statravellogo{
+		max-width: 15rem;
+		text-align: center;
+	}
+
+
+.camden{
+	max-width: 500rem;
 }
 
 blockquote{
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 1.25rem;
+}
+
+.testimonial_quote{
+	font-size: 0.75rem;
+}
+
+.testimonial_cite{
+	font-size: 0.5rem;
 }
