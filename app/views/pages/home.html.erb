@@ -51,6 +51,7 @@
 
     <!-- About Us -->
     <div class="container"> 
+        <a id = "about_us"> </a>
         <div class="row">
             <div class="col-md-9">
                 <h2>About us</h2>
@@ -94,12 +95,13 @@
     <!-- Testimonials -->
 
     <div class="container"> 
+        <a id = "testimonials"> </a>
         <div class="row">
             <div class="col-md-12">
                 <h2>Testimonials</h2>
             </div>
         </div>
-        <div class="row testimonial_image">
+        <div class="row testimonial_image text-center">
             <div class="col-md-5">
                 <%= link_to image_tag("camdenlogo.jpg", class:"camden"), "https://www.camden.gov.uk", :target => "_blank"%>
             </div>
@@ -133,7 +135,7 @@
             </div>
         </div>
 
-        <div class="row" class="testimonial_image">
+        <div class="row testimonial_image text-center">
             <div class="col-md-5">
                 <%= link_to image_tag("south_london.jpg", class:"south_london")%>
             </div>
@@ -143,6 +145,7 @@
                 <%= link_to image_tag("statravellogo.jpg", class:"statravellogo"), "https://http://www.statravel.co.uk/", :target => "_blank"%>
             </div>
         </div>
+
         <div class="row testimonial_quote">
             <div class="col-md-5">
                 <p>"I am writing to place on record the highly satisfactory performance of your organisation, Zip Mail, in delivering mail on behalf of South London Business. We have found that your performance has been helpful and extremely cost effective. In our first month, you delivered over 10,000 letters, and have had no problems with delivery. <br/>I am happy to recommend Zip Mail to any other South London companies looking for an alternative to Royal Mail."</p>
@@ -165,6 +168,11 @@
             </div>
         </div>
     </div>
+
+    <!-- Contact Us -->
+
+     <div class="container"> 
+        <a id = "contact"> </a>
 <% end %> 
 
     
